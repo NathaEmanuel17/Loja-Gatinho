@@ -1,0 +1,221 @@
+.mainP {
+    
+    padding: 5px 40px;
+    margin-top: 20%;
+    border-radius: 10px;
+    background:rgba(128, 128, 128, 0.068);
+    margin-left: 2.5%;
+    width: 95%;
+    max-width:95%;
+    
+    
+}
+
+.main {
+    background:rgba(161, 77, 240, 0.308);
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.textoS{
+    background:rgba(132, 0, 255, 0.479);
+    padding: 5px 40px;
+    color: white;
+    border-radius: 10px;
+    
+    margin: auto;
+    font-family: sans-serif;
+    text-align: justify;
+}
+/*cor de fundo*/
+.textoST{
+    background:rgba(128, 128, 128, 0.068);;
+    padding: 5px 40px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+
+}
+
+.logo {
+    margin: 0%;
+    text-align: left;
+}
+
+.logocat {
+    height: 50px;
+    width: 50px;
+}
+
+.bg-transparent {
+    backface-visibility: unset;
+}
+
+.carrosel {
+    width: 40%;
+    margin: auto;
+    background:rgba(128, 128, 128, 0.068);
+    padding: auto;   
+    margin-top: 40px;
+    border-radius: 100%;
+}
+
+.menu2 {
+    background:rgb(255, 0, 0);
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+} 
+
+.active{
+    color: white;
+}
+
+.mt{
+    margin-top: 20px;
+    color: rgb(16, 89, 224);
+}
+
+/*não está usando*/
+.produtos {
+    width: 40%;
+    
+    margin: auto;
+    background-color:rgba(161, 77, 240, 0.308);
+    padding: auto;   
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.fontProduto{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: auto;
+    text-align: center;
+    color:white;    
+}
+
+.carroselProduto{
+    width: 40%;
+    margin: auto;
+    background:rgba(128, 128, 128, 0.068);
+    padding: auto;   
+    margin-top: 40px;
+    border-radius: 50px;
+
+}
+
+.carroselProd{
+    width: 30%;
+    margin: auto;
+    padding: auto;   
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 100%;
+    background-color: rgba(248, 56, 56, 0.411);
+    margin-right: 10px;
+}
+
+.bd{
+    width: 95%;
+    max-width:95%;
+    margin: auto;
+
+    
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: rgba(233, 224, 224, 0.137);
+}
+
+.bdP{
+    width: 95%;
+    max-width:95%;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: rgba(233, 224, 224, 0.137);
+}
+
+.conteudo{
+    background:rgba(9, 255, 0, 0.212);
+    padding: 5px 40px;
+    margin-top: 20%;
+    border-radius: 10px
+    
+}
+
+.texteP{
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: oblique;
+    color: rgba(255, 0, 0, 0.774);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto{
+    text-align: center;
+}
+
+.footer {
+    margin-top: 30px;
+    position: absolute;
+    background:rgba(161, 77, 240, 0.308);
+    color: white;
+    width: 95%;
+    height: 70px;    
+    text-align: center;
+    line-height: 70px;
+    border-radius: 10px;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.tituloCard{
+    color: blue;
+}
+
+.logorodapé{
+    float: right;
+     margin-right: 10px; 
+     margin-top: 10px;
+}
+
+.produtos1 {
+    width: 40%;   
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0.815);
+    padding: auto;   
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.planos{
+    margin-top: 30px;
+    width: 40%;
+    max-width:50%;
+    margin-left: 13%;
+}
+.gatoMov {
+    animation: go-back 40s  infinite ;
+  }
+.ratoMov {
+    animation: go-back-rato 40s infinite ;
+}
+
+  /*início e fim de qualquer transição*/
+  @keyframes go-back {
+    from {
+      transform: translateX(0);
+      
+    }
+    to {
+      transform: translateX(102%);
+    }
+    
+  }
+
+ 
